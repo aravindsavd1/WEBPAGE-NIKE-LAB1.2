@@ -1,0 +1,45 @@
+body{
+    background-color: azure;
+}
+.container{
+    margin-top: 50px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+h1, .card-title, a, .toast{
+    font-family: sans-serif;
+}
+h1{
+    color: tomato;
+}
+.card{
+     box-shadow: 0px 15px 35px -5px rgba(50,80,130,0.32);
+     border-radius: 15px;
+     transition: transform 0.2s;
+}
+.card-body{
+    padding: 10px;
+    margin-top: -50px;
+    transition: all is easy-in-out;
+}
+.card-body a{
+    visibility: hidden;
+}
+.card:hover>.card-body{
+    margin-top: -0px;
+    transition: all is ease;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.card:hover>.card-body>a{
+    visibility: visible;
+}
+.first-image{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(119, 94, 94);
+}

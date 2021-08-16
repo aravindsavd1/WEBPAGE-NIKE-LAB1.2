@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:url("nike\ series.jpg") no-repeat;
+    background-size: cover;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all .4s;
+}
+.longin-page{
+    width: 350px;
+    height: 450px;
+    background: rgb(235,235,235);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.longin-page:hover{
+    box-shadow: 0 0 50px rgba(252, 251, 251, 0.3);
+}
+.longin-page h1{
+    margin-bottom: 30px;
+    align-items: center;
+    color: white;
+}
+.longin-page form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.longin-page form input{
+    width: 550px;
+    height: 535px;
+    margin: 8px;
+    background: rgb(218,218,218);
+    border: none;
+    padding-left: 10px;
+    outline: none;
+    transition: all .4s;
+}
+.longin-page form input:focus{
+    background: rgb(194,194,194);
+}
+.longin-page form .btn{
+    width: 250px;
+    height: 35px;
+    margin: 8px;
+    background: #db02b0cc;
+    color: #e2e2e2;
+    border: none;
+    outline: none;
+    cursor: none;
+    transition: all .4s;
+}
+.longin-page form .btn:hover{
+    background: #db02b08f;
+}
+.icons{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons div{
+    width: 500px;
+    height: 40px;
+    border:2px solid #3b5998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.icons div:nth-child(2){
+    border: 2px solid #4285f4;
+}
+.icons div i{
+    color: #3b5998;
+    margin: 8px;
+    transition: all .4s;
+}
+.icons div:hover i {
+    color: #4285f4;
+}
+.icons div:hover:nth-child(1){
+    background: #3b5998;
+    color:#e2e2e2;
+}
+.icons div:hover:nth-child(2){
+    background: #4285f4;
+    color: #e2e2e2;
+}
+input{
+    background-color: #ffffff;
+    width: 450px;
+    height: 80px;
+    margin: 8px;
+    background: rgb(218,218,218);
+    border: 10%;
+    padding-left: 10px;
+    outline: none;
+    transition: all .4s;
+}
+button{
+    width: 450px;
+    height: 50px;
+    margin: 8px;
+    background: #f70909cc;
+    color: #e2e2e2;
+    border: 10%;
+    outline: none;
+    transition: all .4s;
+}
+p{
+    align-items: center;
+    color: #f8f1f1;
+    font-weight: bold;
+}
+h1{
+    color: white;
+}
